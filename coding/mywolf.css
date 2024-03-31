@@ -1,0 +1,318 @@
+h1 {
+    background-color: black;
+    color: magenta;
+}
+
+
+h3 {
+    color: blue
+}
+
+i {
+    color: #ff0000
+}
+
+small {
+    color: rgb(15, 150, 110)
+}
+
+label {
+    color: deepskyblue
+}
+
+input {
+    color: red;
+}
+
+select {
+    color: red;
+}
+
+.box {
+    background-color: brown;
+    column-rule-color: rgb(147, 169, 35);
+    font-style: oblique;
+    font-size: larger;
+    border: 5px solid black;
+    margin: 1cm;
+    padding: 15px;
+    font-weight: bold
+}
+
+.homeone {
+    color: black;
+    font-size: 30px;
+}
+
+.cool p:first-child {
+    color: blueviolet;
+
+}
+
+.cool p:last-child {
+    color: chartreuse;
+}
+
+.cool p:nth-child(3) {
+    color: brown;
+    font-size: large;
+}
+
+.keep {
+    font-size: larger
+}
+
+.keep div:nth-child(3)>p {
+    color: coral;
+}
+
+.keep div:first-child>p {
+    color: aqua;
+}
+
+.fa-volleyball {
+    font-size: 30px;
+}
+
+.lolipop {
+    font-weight: bolder;
+    font-family: 'sevillana';
+}
+
+.parentposition {
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.childabsolute {
+    background-color: #ff0000;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 150px;
+    right: 400px;
+}
+
+.fixed {
+    font-size: 40px;
+    position: fixed;
+    background-color: cyan;
+    right: 0px;
+    top: 0px;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+.sticky {
+    font-size: 40px;
+    background-color: rgb(255, 0, 153);
+    position: sticky;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.pop {
+    border: #ff0000;
+    border-style: dotted;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 10px;
+    padding: 30px;
+    text-transform: capitalize;
+}
+
+.trafic {
+    height: 680px;
+    width: 300px;
+    background-color: black;
+    margin: 20px;
+    position: relative;
+    margin-left: 580px;
+}
+
+.car {
+    position: absolute;
+    background-color: #ff0000;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px 50px 20px 50px;
+}
+
+.cycle {
+    position: absolute;
+    background-color: hsl(72, 100%, 50%);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 240px 50px 20px 50px;
+}
+
+.cook {
+    position: absolute;
+    background-color: forestgreen;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 460px 50px 20px 50px;
+}
+
+#navbar {
+    height: 50px;
+    background-color: black;
+
+    a {
+        color: azure;
+        margin-right: 200px;
+    }
+
+    button {
+        background-color: coral;
+    }
+
+    #logo {
+        color: coral;
+        font-size: 25px;
+        padding-left: 10px;
+    }
+}
+
+.drop {
+    position: relative;
+    margin: 20px;
+    width: fit-content;
+}
+
+.down {
+    position: absolute;
+    padding: 2px 10px;
+    width: 110px;
+    background-color: rgb(176, 176, 176);
+    border-radius: 10px;
+    display: none;
+
+}
+
+.down li {
+    padding: 10px 0px;
+    list-style: none;
+    border-bottom: 2px solid black;
+}
+
+.drop:hover .down {
+    display: block;
+    left: 0;
+}
+
+.hover {
+    background-color: gray;
+    width: fit-content;
+    padding: 5px 7px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    color: yellow;
+}
+
+.fa-solid {
+    color: black;
+}
+
+/*  */
+/* Flex */
+/*  */
+.parentbox {
+    border: 3px dotted red;
+    margin: 30px 5px;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+.parentbox>div {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.flex-spacebetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-spacearound {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-spaceevenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.roombox {
+    background-color: burlywood;
+    border: 3px dashed blue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.roombox>div:first-child {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    background-color: black;
+}
+
+.roombox>div:last-child {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: black;
+}
+
+.roombox>div:nth-child(2) {
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    background-color: black;
+
+}
+
+.kk {
+    height: 600px;
+    width: 600px;
+    background-color: chartreuse;
+    border: 3px solid orangered;
+    display: flex;
+
+}
+
+.ok {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: auto;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+    img {
+        display: none;
+    }
+}
